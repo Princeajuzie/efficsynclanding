@@ -140,7 +140,7 @@ const Features = () => {
               Boost Your Task Management with Efficsync
             </h2>
             <p className="mt-3">
-              TaskSync simplifies the process of managing tasks, enabling you to
+            Efficsync simplifies the process of managing tasks, enabling you to
               effortlessly create, track, and prioritize tasks, leading to
               improved productivity and stronger team collaboration.
             </p>
