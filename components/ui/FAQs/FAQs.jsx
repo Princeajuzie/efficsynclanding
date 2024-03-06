@@ -3,30 +3,31 @@ import SectionWrapper from "@/components/SectionWrapper"
 
 const faqsList = [
     {
-        q: "What is an email marketing tool?",
-        a: "An email marketing tool is a software application that allows you to create, send, and manage email campaigns. It helps you to create professional-looking emails, track their performance, and analyze the results.",
+        q: "What is a task manager for organizations?",
+        a: "A task manager for organizations is a software application designed to help businesses and teams efficiently manage tasks, projects, and workflows. It allows for better organization, collaboration, and tracking of tasks across multiple projects and team members.",
     },
     {
-        q: "What are the benefits of using an email marketing tool?",
-        a: "An email marketing tool can help you reach a larger audience, increase engagement with your customers, and generate more leads.",
+        q: "What are the benefits of using a task manager for organizations?",
+        a: "Using a task manager for organizations can lead to improved productivity, better project management, enhanced collaboration among team members, clearer communication, and more efficient allocation of resources.",
     },
     {
-        q: "How do I get started with an email marketing tool?",
-        a: "To get started with an email marketing tool, you will need to sign up for an account with our provider, Once you have signed up for an account, you can start.",
+        q: "How do I get started with a task manager for organizations?",
+        a: "To get started with a task manager for organizations, you typically need to sign up for an account with the provider, set up your organization's workspace, invite team members, and start creating and assigning tasks.",
     },
     {
-        q: "How does an AI-powered email marketing tool work?",
-        a: "Social media is a great place for businesses because it has the An AI-powered email marketing tool works by analyzing customer data to identify patterns and trends in order to create more targeted campaigns.",
+        q: "How does an AI-powered task manager for organizations work?",
+        a: "An AI-powered task manager for organizations utilizes artificial intelligence and machine learning algorithms to automate repetitive tasks, provide intelligent task recommendations, analyze data to identify patterns and trends, and optimize workflows for better efficiency and productivity.",
     },
     {
-        q: "What are the benefits of using an AI-powered email marketing tool?",
-        a: "AI-powered email marketing tools can help marketers save time and money by automating tasks such as segmentation, personalization, content optimization, and more.",
+        q: "What are the benefits of using an AI-powered task manager for organizations?",
+        a: "AI-powered task managers for organizations can help streamline workflows, improve task prioritization, reduce manual effort, provide valuable insights through data analysis, and ultimately enhance overall productivity and performance.",
     },
     {
-        q: "Can I sell my digital products using Mailgo?",
-        a: "Of course you can market and sell your digital products and subscriptions with Mailgo to drive higher conversions and save big on fees.",
+        q: "Can I use a task manager for individual productivity?",
+        a: "Absolutely! Many task managers designed for organizations also offer features suitable for individual users. Whether you're a solo entrepreneur, freelancer, or simply want to stay organized personally, a task manager can help you manage your tasks and stay on top of your commitments effectively.",
     }
 ]
+
 
 const FAQs = () => (
     <SectionWrapper id="faqs">
