@@ -58,7 +58,7 @@ const Hero = () => (
             <Image
               src={HeroImg}
               style={{
-                filter: "blur(10px)",
+                filter: "blur(5px)",
               }}
               className="shadow-lg rounded-2xl "
               alt="efficsync"
