@@ -6,13 +6,13 @@ import Image from "next/image";
 const VisualFeatures = () => {
   const features = [
     {
-      title: "Send thousands of emails",
-      desc: "Send thousands of emails quickly and easily. You can customize the content of each email",
+      title: "Effortlessly Accomplish Tasks",
+      desc: "Simplify your workload by managing tasks from all projects in one convenient location.l",
       img: Feature1,
     },
     {
-      title: "Write your email content using AI",
-      desc: "AI-powered email content writing is the perfect solution for busy professionals who need to quickly create engaging emails.",
+      title: "Unify Your Team",
+      desc: "Enhance performance by aligning your team's objectives—studies show a 25% improvement in performance according to HBR research.",
       img: Feature2,
     },
   ];
@@ -52,8 +52,8 @@ const VisualFeatures = () => {
                     className="w-full ml-auto"
                     alt={item.title}
                     style={{
-                        filter: "blur(5px)",
-                      }}
+                      filter: "blur(5px)",
+                    }}
                   />
                 </div>
               </li>
