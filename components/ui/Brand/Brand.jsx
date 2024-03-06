@@ -1,13 +1,13 @@
-import Image from "next/image"
+import Image from "next/image";
 
 const Brand = ({ ...props }) => (
-    <Image
-        src="/mailgo.svg"
-        alt="Mailgo logo"
-        {...props}
-        width={110}
-        height={50}
-        priority
-    />
-)
-export default Brand
+  <Image
+    src="/logo.svg"
+    alt="Mailgo logo"
+    {...props}
+    width={55}
+    height={30}
+    priority
+  />
+);
+export default Brand;
