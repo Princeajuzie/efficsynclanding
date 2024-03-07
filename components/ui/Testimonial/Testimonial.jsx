@@ -13,9 +13,9 @@ const Testimonial = () => {
 
     const testimonials = [
         {
-            avatar: user1,
-            name: "Mark Zuckerberg",
-            title: "Founder of meta",
+            avatar: "https://pbs.twimg.com/profile_images/1681352730131021877/o65eET4K_400x400.jpg",
+            name: "Williams Joseph",
+            title: "Founder of writecap",
             quote: "we've been using Mailgo for almost a year now and have nothing but great things to say. It's super easy to set up campaigns and its reporting features are incredibly detailed."
         },
         {
@@ -25,9 +25,9 @@ const Testimonial = () => {
             quote: "Mailgo has been a great addition to our email marketing strategy. It's so user-friendly, yet powerful and effective. I'm able to quickly create beautiful emails."
         },
         {
-            avatar: user3,
-            name: "Sidi jeddou",
-            title: "Founder of Float UI",
+            avatar: "https://pbs.twimg.com/profile_images/1708421326556266496/ikH_TOVo_400x400.jpg",
+            name: "Adegoke Adewale",
+            title: "Co-Founder writecap",
             quote: "I highly recommend Mailgo for anyone looking for an easy-to-use and reliable email marketing tool! It's simple to use and has been a great help."
         },
         {
@@ -84,6 +84,8 @@ const Testimonial = () => {
                                                 <Image
                                                     src={item.avatar}
                                                     alt={item.name}
+                                                    height={200}
+                                                    width={200}
                                                     className="w-14 h-14 rounded-full object-cover"
                                                 />
                                                 <div>

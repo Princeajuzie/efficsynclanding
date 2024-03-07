@@ -6,49 +6,48 @@ const Pricing = () => {
 
     const plans = [
         {
-            name: "Basic plan",
-            desc: "For new creators building their list",
+            name: "Basic",
+            desc: "Perfect for individuals and small teams",
             price: 0,
             isMostPop: false,
             features: [
-                "300 emails/day",
-                "Customizable Email Templates",
-                "Drag & Drop Editor",
-                "Transactional Emails",
-                "SMS & WhatsApp Campaigns",
-                "Phone support",
-
+                "Unlimited tasks and projects",
+                "Personalized task lists",
+                "Basic task prioritization",
+                "Email support",
             ],
         },
         {
-            name: "Starter",
+            name: "Pro",
             desc: "Ideal for growing businesses",
-            price: 12,
+            price: 9,
             isMostPop: true,
             features: [
-                "From 20k emails/month",
-                "Marketing Automation",
-                "A/B testing",
-                "Advanced statistics",
-                "Multi-user access",
-                "Send time optimization",
+                "Everything in Basic",
+                "Advanced task analytics",
+                "Team collaboration tools",
+                "Priority task support",
+                "Phone and email support",
+                "AI-powered assistant",
             ],
         },
         {
-            name: "Business",
-            desc: "Built for marketing managers",
-            price: 32,
+            name: "Enterprise",
+            desc: "Tailored solutions for larger organizations",
+            price: 29,
             isMostPop: false,
             features: [
-                "Everything in Starter",
-                "Enterprise-grade Security",
-                "Advanced Integrations",
-                "Sub-account Management",
-                "Tailored Onboarding",
-                "Personalized support",
+                "Everything in Pro",
+                "Customizable workflows",
+                "Dedicated account manager",
+                "24/7 priority support",
+                "Advanced security features",
+                "AI-powered assistant",
             ],
         },
     ];
+    
+    
 
     const mostPopPricingBg = "radial-gradient(130.39% 130.39% at 51.31% -0.71%, #1F2937 0%, rgba(31, 41, 55, 0) 100%)"
 
