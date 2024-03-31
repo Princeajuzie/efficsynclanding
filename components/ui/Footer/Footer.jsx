@@ -8,7 +8,7 @@ const Footer = () => {
             © {date} Efficsync Inc. All rights reserved.
           </p>
           <div className="flex items-center justify-center gap-x-6 text-gray-500 mt-6 sm:mt-0">
-            <a href="/" target="_blank" aria-label="social media">
+            <a href="/" target="_blank" rel="noreferrer" aria-label="social media">
               <svg
                 className="w-6 h-6 hover:text-gray-200 duration-150"
                 fill="none"
@@ -31,6 +31,7 @@ const Footer = () => {
               href="https://twitter.com/Princeajuzie7"
               target="_blank"
               aria-label="social media"
+              rel="noreferrer"
             >
               <svg
                 className="w-6 h-6 hover:text-gray-200 duration-150"
@@ -50,7 +51,7 @@ const Footer = () => {
                 </defs>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/princeajuzie/" target="_blank" aria-label="social media">
+            <a href="https://www.linkedin.com/in/princeajuzie/" target="_blank" rel="noreferrer" aria-label="social media">
               <svg
                 className="w-6 h-6 hover:text-gray-200 duration-150"
                 fill="none"
