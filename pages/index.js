@@ -23,6 +23,7 @@ export default function Home() {
         className="fixed bottom-0 right-0 bg-base-100 bg-[#4A3876] py-2 px-4 z-10 cursor-pointer rounded-tl-xl border-t border-l border-base-content/20  border-dashed text-sm font-semibold hover:bg-base-200 duration-200 group"
         href="https://twitter.com/princeajuzie7"
         target="_blank"
+          rel="noreferrer"
       >
         <div className="flex flex-row justify-center items-center text-center gap-1.5 text-[#D1D5DB]">
           <div>
