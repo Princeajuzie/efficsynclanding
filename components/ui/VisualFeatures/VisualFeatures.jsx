@@ -49,11 +49,9 @@ const VisualFeatures = () => {
                 <div className="pl-8">
                   <Image
                     src={item.img}
+                    draggable={false}
                     className="w-full ml-auto"
                     alt={item.title}
-                    style={{
-                      filter: "blur(5px)",
-                    }}
                   />
                 </div>
               </li>

@@ -47,7 +47,10 @@ const Hero = () => (
                     className="block w-full rounded-xl border-2 border-layer-3 bg-muted-1 px-4 py-2.5 font-semibold text-heading placeholder:text-text/50 focus:border-primary focus:outline-none focus:ring-0 sm:text-sm"
                   />
                 </div>
-                <button className="flex items-center text-white bg-purple-600 hover:bg-purple-500 w-full lg:w-auto mx-auto justify-center active:bg-purple-700 py-2.5 px-4 text-center rounded-full duration-150 ">
+                <button
+                  // className="flex items-center text-white  py-2.5 px-4 text-center rounded-full duration-150 "
+                  className="inline-flexbg-purple-600 flex   hover:bg-purple-500 active:bg-purple-700 cursor-pointer items-center justify-center rounded-xl border-2 border-primary bg-primary px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:border-primary-accent hover:bg-primary-accent focus:outline-none focus:ring-2  focus:ring-offset-0 disabled:opacity-30 disabled:hover:border-primary disabled:hover:bg-primary disabled:hover:text-white dark:focus:ring-white/80"
+                >
                   Get Started
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +77,6 @@ const Hero = () => (
               // style={{
               //   filter: "blur(5px)",
               // }}
-              draggable={false}
               className="shadow-lg rounded-2xl "
               alt="efficsync"
             />
