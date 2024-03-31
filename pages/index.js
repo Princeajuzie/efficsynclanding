@@ -36,6 +36,9 @@ export default function Home() {
               <Image
                 className="relative w-7 rounded-full group-hover:rotate-12 group-hover:scale-110 duration-300"
                 alt="Prince Ajuzie"
+   target="_blank"
+              aria-label="Prince Ajuzie"
+              rel="noreferrer"
                 width={240}
                 height={240}
                 style={{ color: "transparent" }}
